@@ -1,0 +1,19 @@
+import Image from "next/image";
+
+import arrow from "./right-arrow.svg"
+import Link from "next/link";
+import GameInfo from "../game-info/game-info";
+
+
+export default function GameTitle() {
+  return (
+    <div >
+      <Link href="#" className="flex items-center">
+        <Image src={arrow} alt="arrow" />
+        <span className=" text-xs text-black">На главную</span>
+      </Link>
+      <div className=" pl-2 text-3xl leading-tight">Крестики - Нолики</div>
+      <GameInfo />
+    </div>
+  )
+}
