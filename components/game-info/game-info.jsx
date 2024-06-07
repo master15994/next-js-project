@@ -1,5 +1,6 @@
+import CrossIcon from "../icons/сross-icon";
 import Profile from "../profile/profile";
-import CrossIcon from "./сross-icon";
+
 
 export default function GameInfo() {
   return (
@@ -18,7 +19,6 @@ export default function GameInfo() {
           <div className="w-7 h-7 rounded-full absolute -left-1 -top-1 bg-white flex items-center justify-center"><CrossIcon /></div>
           <Profile />
         </div>
-
       </div>
     </div>
   )
